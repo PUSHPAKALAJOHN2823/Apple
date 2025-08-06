@@ -50,7 +50,7 @@ const products = [
 function Products() {
   return (
     <section className="w-full px-4 md:px-8 lg:px-16 py-6">
-      <div className="flex flex-row md:grid md:grid-cols-2 gap-6">
+      <div className="grid  md:grid md:grid-cols-2 gap-6">
         {products.map((product, idx) => (
           <div
             key={idx}
